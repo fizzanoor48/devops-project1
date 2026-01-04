@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DevOps Project - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar (INTENTIONALLY different order for conflict later) -->
+  <nav class="navbar">
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="index.html">Home</a>
+  </nav>
+
+  <main>
+    <h1>Contact Us</h1>
+
+    <form class="contact-form">
+      <label>Name</label>
+      <input type="text" name="name" required minlength="3" placeholder="Your name">
+
+      <label>Email</label>
+      <input type="email" name="email" required placeholder="you@example.com">
+
+      <label>Message</label>
+      <textarea name="message" required minlength="10" placeholder="Write your message..."></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
